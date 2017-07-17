@@ -9,6 +9,8 @@ omega700hPa is greater than 10 hPa day-1 and high- and mid-level cloud cover is 
 Nam, C., S. Bony, J.-L. Dufresne, and H. Chepfer, The "too few, too bright" tropical low-cloud problem in CMIP5 models, Geophys. Res. Lett., 39, L21801, doi:10.1029/2012GL053421, 2012.
 
 # Model Input Variables
+The code makes use of the following data, all of which are available at https://github.com/chriscnam/CFMIP_SWCRE_Parasol/tree/master/data
+
 | Frequency |	Variable |	Variable labels |	Unit |	Example File |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Monthly | Surface pressure | ps | Pa | ps_Amon_IPSL-CM5B-LR_amip_r1i1p1_197901-200812.nc
@@ -37,5 +39,5 @@ Nam, C., S. Bony, J.-L. Dufresne, and H. Chepfer, The "too few, too bright" trop
 | | TOA Shortwave Cloud Radiative Effect CERES | rsut |W m-2 |
 | | TOA Shortwave Cloud Radiative Effect (Clear Sky) CERES | rsutcs | w | W m-2 |
  
-
-
+# Figure Generation
+This script processes and draws the figure 'Reflectance_Metrics_CNam.png'
