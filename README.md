@@ -39,5 +39,5 @@ The code makes use of the following data, all of which are available at https://
 | | TOA Shortwave Cloud Radiative Effect CERES | rsut |W m-2 |
 | | TOA Shortwave Cloud Radiative Effect (Clear Sky) CERES | rsutcs | w | W m-2 |
  
-# Figure Generation
+# Output
 This script processes and draws the figure 'Reflectance_Metrics_CNam.png'
